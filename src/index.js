@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Myabout, { Aboutpage,Contactus,Service } from './pages/About';
+import Myabout, { Aboutpage,Contactus,Service, } from './pages/About';
+import Userinfo from './pages/Userinfo';
 
 
 
@@ -14,6 +15,7 @@ root.render(
    <Aboutpage />
    <Contactus></Contactus>
    <Service/>
+   <Userinfo></Userinfo>
 
   </React.StrictMode>
 );
