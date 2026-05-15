@@ -11,7 +11,7 @@ function Userinfo(){
     <h1>user age:{age}</h1>
     <h1>user email</h1>
     <h1>user phone</h1>
-    <h1>fees:{100+200+400}</h1>
+    <h1>fees:{100*200*400}</h1>
     </div>
   )
 }
