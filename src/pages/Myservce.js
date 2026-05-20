@@ -10,6 +10,10 @@ function Myservce() {
     gender: "male"
   });
 
+  const first =()=>{
+    alert("welcome");
+  }
+
   return (
     <Fragment>
       <div>
@@ -27,6 +31,8 @@ function Myservce() {
       >
         click to update state variable
       </button>
+
+      <input type="button" value={"submit my fun"} onClick={first}/>
     </Fragment>
   );
 }
